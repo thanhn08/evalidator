@@ -8,20 +8,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fluxxu/evalidator.git"
+    "url": "https://github.com/thanhn08/evalidator"
   },
   "keywords": [
     "validation"
   ],
-  "author": "Flux Xu",
+  "author": "Thanh Nguyen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fluxxu/evalidator/issues"
+    "url": "https://github.com/thanhn08/evalidator/issues"
   },
   "dependencies": {
     "lodash": "*",
-    "async": "0.x.x",
+    "async": "1.x.x",
     "validator": "3.x.x",
-    "bluebird": "1.x.x"
+    "bluebird": "2.x.x",
+    "co": "4.x.x"
   }
 }

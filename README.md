@@ -1,6 +1,9 @@
 EValidator
 ==========
+This is forked from Fluxxu's evalidator (https://github.com/fluxxu/evalidator) to add Rule by Generator. Much credit goes to him.
+
 An object validator utilizing node-validator. Supports sync/async validation and scenarios.
+
 ## Quick Example
 ```javascript
 var ev = new EValidator();
@@ -59,7 +62,7 @@ ev.validate(obj, function (err, result) {
     if (result.hasError()) {
       //all errors, maped by attribute name
       console.log(result.getErrors());
-      
+
       //get errors of 'name' attribute
       console.log(result.getError('name'));
     }
@@ -71,7 +74,7 @@ ev.validate(obj)
         if (result.hasError()) {
           //all errors, maped by attribute name
           console.log(result.getErrors());
-          
+
           //get errors of 'name' attribute
           console.log(result.getError('name'));
         }
